@@ -16,7 +16,7 @@ func main() {
 
 func Hello() echo.HandlerFunc {
     return func(c echo.Context) error {     
-        return c.String(http.StatusOK, "4436:サンキューオベロンver.2")
+        return c.String(http.StatusOK, "4436:サンキューギル＆言峰")
     }
 }
 
